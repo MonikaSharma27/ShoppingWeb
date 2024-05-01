@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #eee;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+    font-size: 20px;
+    background: #eee;
+    box-shadow: 10px 5px 17px 1px gray;
+    position: fixed;
+    width: 100%;
+
+}
+
+.logo {
+    margin-left: 70px;
+    color: rgb(58, 56, 56);
+
+}
+
+ul li {
+    list-style: none;
+    color: rgb(58, 56, 56);
+
+}
+
+ul li a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul li i {
+    margin-right: 70px;
+    margin-left: 10px;
+    font-size: 22px;
+    color: rgb(58, 56, 56)
+}
+
+#home {
+    color: rgb(5, 167, 167);
+}
+
+ul li a:hover {
+    border-bottom: 2px solid rgb(5, 167, 167);
+    cursor: pointer;
+}
+
+ul li i:hover {
+    border-bottom: 2px solid rgb(5, 167, 167);
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+
+}
+
+.main h1 {
+    font-size: 64px;
+
+}
+
+.top {
+    color: rgb(4, 138, 138);
+}
+
+.mainText button {
+    width: 145px;
+    height: 40px;
+    background-color: rgb(4, 138, 138);
+    border: none;
+    font-size: 22px;
+    color: white;
+    border-radius: 4px;
+    margin-top: 23px;
+}
+
+.mainText button:hover {
+    border: 2px solid rgb(3, 128, 128);
+    background-color: transparent;
+    color: rgb(3, 128, 128);
+}
+
+.mainText p {
+    margin-top: 12px;
+}
+
+.mainImg img {
+    width: 460px;
+    margin-top: 120px;
+}
+
+.trend {
+    background-color: #eeee;
+    padding-top: 54px;
+}
+.trends{
+    background-color: #eeee;
+    padding-top: 50px;
+}
+
+.trends .head{
+    padding: 33px;
+    text-align: center;
+}
+
+.trend .head {
+    text-align: center;
+    padding: 33px;
+}
+
+.head span {
+    color: rgb(4, 138, 138);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card .crd {
+    width: 300px;
+    height: 500px;
+    margin-inline: 11px;
+    background-color: white;
+
+
+}
+
+.crd img {
+    width: 85%;
+    padding: 22px;
+    border-radius: 31px;
+}
+
+.crd #img4 {
+    width: 77%;
+    border-radius: 31px;
+
+}
+
+.crd #img5 {
+    height: 67%;
+}
+
+.crd #img7 {
+    height: 67%;
+}
+.crdText{
+    margin-left: 21px;
+    padding: 8px;
+}
+.crd button{
+    width: 118px;
+    height: 33px;
+    border: none;
+    background-color: rgb(4, 138, 138) ;
+    font-size: 19px;
+    border-radius: 4px;
+    margin-top: 11px;
+    margin-left: 28px;
+    color: white;
+}
+.crdText i{
+    color: orange;
+}
+.abouts{
+    
+    background-color: #eee;
+    display: none;
+    
+    
+}
+.aboutUs{
+    background-color: rgb(4, 4, 100);
+    color: white;
+    padding: 56px;
+    font-size: 19px;
+   padding-top: 8%;
+   
+
+}
+.me{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    background-color: #fff;
+    padding: 33px;
+    margin-left: 24%;
+    margin-top: 5%;
+}
+.me img{
+    width: 54%;
+}
+.contacts{
+    background-color: #eee;
+    display: none;
+}
+.contactUs{
+    background-color: rgb(4, 4, 100);
+    color: white;
+    padding: 56px;
+    font-size: 19px;
+   padding-top: 8%;
+}
+.contactMe{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    background-color: #fff;
+    padding: 22px;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+.contactMe img{
+    width: 65%;
+}
+.contactText{
+    padding: 22px;
+    width: 600px;
+}
+.contactText p{
+    margin-top: 12px;
+}
+.form{
+    text-align: center;
+    margin-top: 5%;
+}
+.form input{
+    width: 300px;
+    height: 27px;
+    margin-top: 11px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.form button{
+    width: 310px;
+    height: 35px;
+    background-color: rgb(4, 138, 138);
+    color: #fff;
+    font-size: 22px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin: auto;
+    display: none;
+}
+.cart img{
+    width: 50%;
+    
+}
+.cartText{
+    padding: 22px;
+    margin-top: 22px;
+}
+.cartText p{
+    margin-top: 12px;
+}
+.cartText h2{
+    margin-top: 11px;
+}
+.cartText .btn button{
+    width: 140PX;
+    height: 40PX;
+    background-color: rgb(255, 89, 0);
+    color: #fff;
+    border: none;
+    font-size: 18PX;
+    margin-inline: 11px;
+    margin-top: 22px;
+    border-radius: 5px;
+}
+.backBtn{
+    width: 140PX;
+    height: 40PX;
+    background-color: rgb(4, 138, 138);
+    color: #fff;
+    border: none;
+    font-size: 18PX;
+    margin-inline: 11px;
+    margin-top: 22px;
+    border-radius: 5px;
+}
+.blog {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    margin-inline: 22px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+    
+}
+.blog:hover{
+    transition: 0.6s ease;
+    width: 520px;
+    height: 320px;
+}
+.blog img{
+    width: 85%;
+    padding: 22px;
+}
+.blogText{
+    padding: 22px;
+    margin-top: 33px;
+}
+.blogText a{
+    width: 130px;
+    padding: 4px;
+    height: 20px;
+    background-color: rgb(4, 138, 138);
+    color: #fff;
+    font-size: 20px;
+   border-radius: 5px;
+   position: relative;
+   top: 50px;
+   text-decoration: none;
+}
+.letter{
+    background-color: rgb(4, 4, 100);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 43px;
+}
+.inp{
+    display: flex;
+}
+.inp input{
+    width: 330px;
+    height: 33px;
+    outline: none;
+    font-size: 18px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.inp button{
+    width: 100px;
+    height: 33px;
+    background-color: rgb(2, 173, 173);
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+}
+.footer .footerText{
+    margin-inline: 85px;
+}
+.footerText p{
+    margin-top: 11px;
+}
